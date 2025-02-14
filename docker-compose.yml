@@ -10,7 +10,7 @@ services:
     networks:
       - app_network
     volumes:
-      - /Users/username/.aws:/root/.aws
+      - /$HOME/.aws:/root/.aws
 
   frontend:
     build: ./frontend
